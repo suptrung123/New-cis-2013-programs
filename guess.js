@@ -90,11 +90,11 @@ else
      }
 
      intCount ++; 
-     intGuess = parseInt (prompt("0-11?")); 
+     intGuess = parseInt (prompt("Enter a new Guess")); 
 
 while (isNaN(intGuess) || intMax < intMin || intGuess > intMax)
 {
-     intGuess = parseInt(prompt("0-11?"));
+     intGuess = parseInt(prompt("Enter a new Guess"));
 
 } 
 
